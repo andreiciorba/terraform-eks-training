@@ -1,6 +1,6 @@
 locals {
   subnet_common_tags = {
-    "kubernetes.io/cluster/var.cluster_name" = "shared"
+    "kubernetes.io/cluster/${var.cluster_name}" = "shared"
   }
 }
 

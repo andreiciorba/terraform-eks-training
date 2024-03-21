@@ -1,3 +1,7 @@
+# provider "aws" {
+#   region = "eu-west-3"
+# }
+
 module "eks_vpc" {
   source = "./eks_vpc"
 
